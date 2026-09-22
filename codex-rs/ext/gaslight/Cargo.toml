@@ -1,0 +1,20 @@
+[package]
+edition.workspace = true
+license.workspace = true
+name = "codex-gaslight-extension"
+version.workspace = true
+
+[lib]
+name = "codex_gaslight_extension"
+path = "src/lib.rs"
+doctest = false
+
+[lints]
+workspace = true
+
+[dependencies]
+codex-core = { workspace = true }
+codex-extension-api = { workspace = true }
+codex-protocol = { workspace = true }
+codex-tools = { workspace = true }
+serde_json = { workspace = true }
